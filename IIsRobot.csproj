@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>e5391a58-bd80-4566-b7d6-e88dd7eeab92</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeepAI.Client" Version="1.3.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+    <PackageReference Include="NewtonSoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <PackageReference Include="Xabe.FFMpeg" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
